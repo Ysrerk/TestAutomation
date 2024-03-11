@@ -4,6 +4,12 @@
   <artifactId>CCJava</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   
+   <!-- bunu mvn test de source hatasi almamak icin ekledim -->
+   <properties>
+        <maven.compiler.source>1.8</maven.compiler.source>
+        <maven.compiler.target>1.8</maven.compiler.target>
+    </properties>
+  
   <dependencies>
 	  
 	  <!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-java -->
